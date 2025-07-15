@@ -47,3 +47,23 @@ web-keylogger/
 └── templates/
 
 └── index.html           # Frontend interface
+
+---
+
+## 📸 Screenshots
+
+### 🔐 Main Page
+
+![Keylogger Screenshot](ketloggerweb.png)
+
+> This is a local-only interface with a textarea. Keystrokes are captured as you type.
+
+![Keylogger Screenshot](logpic.png)
+---
+
+## 🧪 Usage
+
+### 1. Install Flask
+
+```bash
+pip install flask
