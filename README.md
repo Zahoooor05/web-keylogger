@@ -54,7 +54,7 @@ web-keylogger/
 
 ### 🔐 Main Page
 
-![Keylogger Screenshot](ketloggerweb.png)
+![Keylogger Screenshot](keyloggerweb.png)
 
 > This is a local-only interface with a textarea. Keystrokes are captured as you type.
 
