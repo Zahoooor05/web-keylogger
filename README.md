@@ -57,13 +57,11 @@ web-keylogger/
 ![Keylogger Screenshot](keyloggerweb.png)
 > This is a local-only interface with a text area. Keystrokes are captured as you type.
 
-
 ![Keylogger Screenshot](logpic.png)
 ---
 
-## 🧪 Usage
-
-### 1. Install Flask
-
-```bash
-pip install flask
+## ⚠ Legal Warning
+This tool is intended for educational purposes and cybersecurity awareness only. You must never:
+	•	Use this on others’ systems without permission
+	•	Deploy on public networks or websites
+	•	Violate any local or international cybersecurity laws
