@@ -38,3 +38,12 @@ This is a simple *web-based keylogger* that captures and logs every keystroke ty
 ---
 
 ## 📁 Project Structure
+web-keylogger/
+
+├── app.py               # Flask backend
+
+├── logs.txt             # Output log file (auto-generated)
+
+└── templates/
+
+└── index.html           # Frontend interface
